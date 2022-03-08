@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>contact</title>
+</head>
+<body>
+    <ul>
+    <li><a href="index.html">HomePage</a></li>
+    <li><a href="MobileReview.html">Mobile Review</a></li>
+    <li><a href="PcReview.html">Pc Review</a></li>
+    <li><a href="ConsoleReview.html">Console Review</a></li>
+    <li><a href="Contact.html">Contact Page</a></li>
+</ul>
+    <h1>contact</h1>
+    <div id="welcomeText">
+    <form onsubmit ="changeText()" method="post" id="welcomeForm">
+        <label>Please enter your name</label>
+        <input type="text" placeholder="Enter name..." required name="fname"><br>
+        <br>
+        <label> Please enter your email</label>
+        <input type="email" placeholder="Enter email..." required><br>
+        <br>
+        <label>Please enter your message below</label><br>
+        <textarea cols="48" rows="16" required></textarea><br>
+        <input type="submit" value="submit!">
+    </form>
+    </div>
+    <script src="main.js"></script>
+  
+    <form action=”mailto:CRI21000567@btc.ac.uk”
+    method=”POST”
+    enctype=”multipart/form-data”
+    name=”EmailForm”></form>
+    <input type=”text” size=”19″ name=”GabrielCriddle”><br><br>
+    Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″></textarea>
+    </textarea><br><br> <input type=”submit” value=”Submit”> </form>
+
+</body>
+</html>
